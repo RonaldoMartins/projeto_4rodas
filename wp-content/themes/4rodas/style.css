@@ -1,0 +1,673 @@
+/* 
+Theme Name:4rodas
+Theme URI:
+Description:Tema desenvolvido para teste Editora abril
+Author: Ronaldo Martins
+Author URI:
+Version: 1.0
+*/
+
+    /* ––––––––––––––––––––––––––––––––––––––––––––––––––
+    Body
+    –––––––––––––––––––––––––––––––––––––––––––––––––– */
+#divBusca{
+    background-color: silver;
+    width: 200px;
+    position: absolute;
+    right: 100px;
+    top: 84px
+
+}
+
+br {
+    display: none!important
+}
+
+#divBusca img{
+    padding-top: 5px;
+}
+ 
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:22px;
+    width:160px;
+
+}
+
+
+
+
+    .acessados{
+        position: absolute; 
+        padding-left: 180px;
+        top: 133px;
+    }
+
+  .acessados li{
+        float:left;
+        list-style: none;
+
+    }
+
+    .acessados li a{
+        margin-right:20px;
+        text-transform: uppercase;
+        text-decoration: none;
+
+    }
+    .acessados li a:hover{
+        text-decoration: underline;
+
+    }
+
+    .title_acessados{
+    position:absolute; 
+    top:130px; 
+    text-transform: uppercase; 
+    color:#fff
+    }
+
+    body {
+    background-color: #e5e5e5;
+    font:700 0.8em "Dosis",Sans-serif;
+    }
+
+    * {
+    box-sizing: border-box;
+    padding:0
+    margin:0;
+    }
+    .logo2{
+    display:block;
+    float:left; 
+    position:relative; 
+    margin:20px 100px 20px 20px
+
+    }
+    .space-top-15{
+    margin-top:15px !important;
+    }
+
+    .subNav_Left{
+    padding:14px; 
+    width:147px !important; 
+    margin-left:0 !important;
+    background-color: #d41f1f;
+    background-image: url("http://localhost/wordpress/wp-content/themes/4rodas/img/arrow.png");
+    background-repeat: no-repeat;
+    background-position: 118px 0px; 
+    }
+
+    .subNav{
+    background-color:#242424;
+    }
+
+    .container{
+    width:97.8%; 
+    margin:auto;  
+    }
+
+    .principal1{
+    float: left; 
+    width:50%; 
+    padding-bottom: 0px;
+    }
+
+    .principal1 img{
+    max-width:100%; 
+    position: relative;
+    bottom: -2px;
+    opacity: 1;
+    transition: opacity .0s ease-in-out;
+    -moz-transition: opacity .0s ease-in-out;
+    -webkit-transition: opacity .0s ease-in-out;
+    }
+
+    .principal1 img:hover {
+    opacity: 0.5;
+    }
+    .principal2{
+    float:left; 
+    width:50%; 
+    padding:0;
+    }
+
+    .principal2 div img{
+    max-width:50%; 
+    max-height:auto; 
+    margin:0;
+    opacity: 1;
+    transition: opacity .0s ease-in-out;
+    -moz-transition: opacity .0s ease-in-out;
+    -webkit-transition: opacity .0s ease-in-out;
+    }
+
+    .principal2 div img:hover{
+    opacity: 0.5;
+
+    }
+
+    .min_banner{
+    white-space: nowrap; background-color:; padding:0; position: relative;bottom:-2px;
+    }
+
+    .second{
+    bottom:2px!important;
+    }
+
+    .align_left{
+    float:left;
+    }
+
+    .internal-space{
+    padding-bottom :37% !important;
+    }
+
+    .destaques {
+    height:auto;
+    display: -webkit-flex;
+    display: flex;
+    }
+
+    .destaques div {
+    margin-right:10px;
+    -webkit-flex:1 1 auto;
+    flex:1 1 1;
+    max-width: 335px;
+    }
+
+    .destaques div img {
+    width: 100%;
+    opacity: 1;
+    transition: opacity .0s ease-in-out;
+    -moz-transition: opacity .0s ease-in-out;
+    -webkit-transition: opacity .0s ease-in-out;
+    }
+
+   
+    .destaques div img:hover{
+    opacity: 0.5;
+
+    }
+
+    .destaques div h2{
+    color: #000;
+    font-size: 1.5em;
+    font-weight: 600;
+    bottom: 0px;
+    margin: 10px 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    text-align: left;
+
+    }
+    .destaques div h4{
+    color: red;
+    font-size: 1.1em;
+    font-weight: 600;
+    bottom: 0px;
+    margin: 10px 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    text-align: left;
+    position: relative;
+    bottom: 0px;
+
+    }
+
+
+    .destaques div p{
+    color: #000;
+    font-size: 1em;
+    bottom: 0px;
+    margin: 10px 15px;
+    text-align: left;
+    }
+    a {
+    color: #fff;
+    }
+
+        .destaques div a{
+    color: red;
+    position: relative;
+    bottom: 0px;
+
+    }
+
+  
+
+    .description {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    }
+
+
+    /* ––––––––––––––––––––––––––––––––––––––––––––––––––
+    menu4rodas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+    .menu-container {
+    width:97.8%; 
+    margin: 0 auto;
+    background-color: #ed1c24;
+    }
+
+    .menu-mobile {
+    display: none;
+    padding: 20px;
+    }
+
+    .menu-mobile:after {
+    content: "\f394";
+    font-family: "Ionicons";
+    font-size: 2.5rem;
+    padding: 0;
+    float: right;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-25%);
+    -ms-transform: translateY(-25%);
+    transform: translateY(-25%);
+    }
+
+    .menu  ul {
+    margin: 0 auto;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    position: relative;
+    box-sizing: border-box;
+    }
+
+    .menu > ul:before,
+    .menu > ul:after {
+    content: "";
+    display: table;
+    }
+
+    .menu > ul:after {
+    clear: both;
+    }
+
+    .menu > ul > li {
+    float: left;
+    background: #e9e9e9;
+    padding: 0;
+    margin: 0;
+    }
+
+    .menu > ul > li a {
+    text-decoration: none;
+    padding: 2.7em 1em;
+    display: block;
+    background-color: #ed1c24;
+    color:#fff;
+    }
+
+     
+
+.drop{
+    max-width: 170px;
+    margin-right: 2% !important;
+    position: relative !important;
+    top:-20px !important;
+
+    }
+
+        .drop > ul li {
+    width: 170px!important;
+    margin: 0!important
+    }
+
+
+    .drop > ul li a{
+    background-color: transparent !important ;
+    font: 300 1.5em "Dosis",Sans-serif !important;
+    color: #fff !important;
+    line-height: 9px !important;
+    }
+
+
+    .drop > ul li a img{
+    opacity: 1;
+    transition: opacity .0s ease-in-out;
+    -moz-transition: opacity .0s ease-in-out;
+    -webkit-transition: opacity .0s ease-in-out;
+    }
+
+     .drop > ul li a img:hover{
+      opacity: 0.5;
+
+    }
+
+
+    .space-left-30 {
+    position:relative !important;
+    left:30px !important;
+    }
+     
+    .space-left-60 {
+    position:relative !important;
+    left:60px !important;
+    }
+     
+     .title-menu > h3 {
+    font-size:13px !important; 
+    color:#fff; line-height:14px !important;
+    }
+    .title-menu > a p{
+        line-height:16px !important; 
+        font-size:12px !important; 
+        color:#d41f1f !important; 
+        position:relative !important; 
+        bottom:10px !important;
+    }
+
+.menu_interno{
+    background-color:#474747 !important; 
+    min-height:240px !important; 
+    position:relative !important;
+    margin-bottom:-20px !important; 
+    margin-left:-20px !important; 
+    margin-right:30px !important;
+}
+
+.menu_interno > ul .line{
+    background-color:#222 !important; 
+   
+}
+
+.menu_interno > ul li a{
+    text-align: right !important; 
+   
+}
+
+
+
+
+    .menu > ul > li:hover {
+    background: #f0f0f0;
+    }
+    .menu > ul > li a:hover {
+    background-color: #222;
+    }
+
+
+    .menu > ul > li > ul {
+    display: none;
+    width: 100%;
+    background-color: #222;
+    padding: 20px;
+    position: absolute;
+    z-index: 99;
+    left: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    max-height: 240px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .menu > ul > li > ul:before,
+    .menu > ul > li > ul:after {
+    content: "";
+    display: table;
+    }
+
+    .menu > ul > li > ul:after {
+    clear: both;
+    }
+
+    .menu > ul > li > ul > li {
+    margin: 0;
+    padding-bottom: 0;
+    list-style: none;
+    width: 25%;
+    background: none;
+    float: left;
+    }
+
+    .menu > ul > li > ul > li a {
+    color: #777;
+    padding: .2em 0;
+    width: 95%;
+    display: block;
+    border-bottom: 1px solid #ccc;
+    }
+
+    .menu > ul > li > ul > li > ul {
+    display: block;
+    padding: 0;
+    margin: 10px 0 0;
+    list-style: none;
+    box-sizing: border-box;
+    }
+
+    .menu > ul > li > ul > li > ul:before,
+    .menu > ul > li > ul > li > ul:after {
+    content: "";
+    display: table;
+    }
+
+    .menu > ul > li > ul > li > ul:after {
+    clear: both;
+    }
+
+    .menu > ul > li > ul > li > ul > li {
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+    font-size: .8em;
+    }
+
+    .menu > ul > li > ul > li > ul > li a {
+    border: 0;
+    }
+
+    .menu > ul > li > ul.normal-sub {
+    width: 300px;
+    left: auto;
+    padding: 10px 20px;
+    }
+
+    .menu > ul > li > ul.normal-sub > li {
+    width: 100%;
+    }
+
+    .menu > ul > li > ul.normal-sub > li a {
+    border: 0;
+    padding: 1em 0;
+    }
+
+
+    /* ––––––––––––––––––––––––––––––––––––––––––––––––––
+    Menu4rodas Versao Mobile 
+    –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+
+    @media only screen and (max-width: 959px) {
+
+    .principal1{
+    float: initial; 
+    width: 100%; 
+    }
+
+    .principal1 img{
+    width: 100%;    
+    }
+
+    .principal2{
+    width: 100%;    
+    }
+    .principal2 div img{
+    width:100%; 
+
+    }
+    .internal-space{
+    padding-bottom:75% !important
+    }
+    .logoMin{ 
+    position: relative;
+    top: -20px;
+    left: 28%;
+    padding:10px 100px 10px 100px; 
+    background: url(http://localhost/wordpress/wp-content/themes/4rodas/img/logo_min.png) no-repeat center center;
+    }
+    .lupa_min{ 
+    position: relative;
+    top: -20px;
+    left: 0;
+    padding:10px 0px 10px 100px; 
+    background: url(http://localhost/wordpress/wp-content/themes/4rodas/img/lupa_min.png) no-repeat center center
+    }
+    .logo2{
+    display:none;
+    }
+
+    #divBusca{
+    display: none;
+    }
+    
+    .container{
+    width: 100%;
+    }
+    .menu-container {
+    width: 100%;
+    }
+    .menu-mobile {
+    display: block;
+    }
+    .menu-dropdown-icon:before {
+    display: block;
+    }
+    .menu > ul {
+    display: none;
+    }
+    .menu > ul > li {
+    width: 100%;
+    float: none;
+    display: block;
+    }
+    .menu > ul > li a {
+    padding: 1.5em;
+    width: 100%;
+    display: block;
+    }
+    .menu > ul > li > ul {
+    position: absolute !important;
+    max-height: initial;
+
+    }
+
+
+
+    .menu > ul > li > ul.normal-sub {
+    width: 100%;
+    }
+    .menu > ul > li > ul > li {
+    float: none;
+    width: 100%;
+    margin-top: 20px;
+    }
+    .menu > ul > li > ul > li:first-child {
+    margin: 0;
+    }
+    .menu > ul > li > ul > li > ul {
+    position: relative;
+    }
+    .menu > ul > li > ul > li > ul > li {
+    float: none;
+    }
+    .menu .show-on-mobile {
+    display: block;
+    }
+
+ 
+    }
+
+    @media only screen and (max-width: 768px) {
+
+    .subNav{
+    display: none;
+    }
+    .principal2{
+    width: 100%;
+    }
+    .principal2 div img{
+    max-width:100%;  
+    }
+    .min_banner{
+    white-space: initial; bottom:0px;
+    }
+    .second{
+    bottom:0px!important;
+    }
+    .align_left{
+    float:initial;
+    }
+    .destaques {
+    display: initial;
+    }
+    .destaques div {
+    margin-right: 0;
+    -webkit-flex:initial;
+    flex:initial;
+    max-width: initial;
+
+    }
+
+
+    .logoMin{ 
+    top: -20px;
+    left: 20%;
+    }
+    }
+
+    @media only screen and (max-width: 500px) {
+
+    .logoMin{ 
+    top: -20px;
+    left: 0;
+    }
+    }
+
+    @media only screen and (max-width: 360px) {
+
+    .logoMin{ 
+    position: absolute;
+    top: 30px;
+    left: 19%;
+    }
+    }
